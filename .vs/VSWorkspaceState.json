@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Ldap.API",
+    "\\Ldap.API\\Controllers",
+    "\\Ldap.BusinessLogic"
+  ],
+  "SelectedNode": "\\LdapWebApp.sln",
+  "PreviewInSolutionExplorer": false
+}
