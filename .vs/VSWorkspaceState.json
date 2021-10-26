@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Ldap.API",
     "\\Ldap.API\\Controllers",
-    "\\Ldap.BusinessLogic"
+    "\\Ldap.BusinessLogic",
+    "\\Ldap.BusinessLogic\\Implementations"
   ],
-  "SelectedNode": "\\LdapWebApp.sln",
+  "SelectedNode": "\\Ldap.BusinessLogic\\Implementations\\TokenGenerator.cs",
   "PreviewInSolutionExplorer": false
 }

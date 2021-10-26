@@ -1,0 +1,12 @@
+C:\Users\lenovo\Desktop\LdapApi\Ldap.Models\bin\Debug\net5.0\Ldap.Models.deps.json
+C:\Users\lenovo\Desktop\LdapApi\Ldap.Models\bin\Debug\net5.0\Ldap.Models.dll
+C:\Users\lenovo\Desktop\LdapApi\Ldap.Models\bin\Debug\net5.0\ref\Ldap.Models.dll
+C:\Users\lenovo\Desktop\LdapApi\Ldap.Models\bin\Debug\net5.0\Ldap.Models.pdb
+C:\Users\lenovo\Desktop\LdapApi\Ldap.Models\obj\Debug\net5.0\Ldap.Models.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\LdapApi\Ldap.Models\obj\Debug\net5.0\Ldap.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\LdapApi\Ldap.Models\obj\Debug\net5.0\Ldap.Models.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\LdapApi\Ldap.Models\obj\Debug\net5.0\Ldap.Models.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\LdapApi\Ldap.Models\obj\Debug\net5.0\Ldap.Models.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\LdapApi\Ldap.Models\obj\Debug\net5.0\Ldap.Models.dll
+C:\Users\lenovo\Desktop\LdapApi\Ldap.Models\obj\Debug\net5.0\ref\Ldap.Models.dll
+C:\Users\lenovo\Desktop\LdapApi\Ldap.Models\obj\Debug\net5.0\Ldap.Models.pdb

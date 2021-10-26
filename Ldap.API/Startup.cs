@@ -13,6 +13,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace Ldap.API
 {
@@ -32,8 +35,31 @@ namespace Ldap.API
         {
 
             services.AddScoped<IAuthentication, Authentication>();
+            services.AddScoped<ITokenGenerator, TokenGenerator>();
+
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>
+               {
+                   options.TokenValidationParameters = new TokenValidationParameters
+                   {
+                       ValidateAudience = true,
+                       ValidateIssuer = true,
+                       ValidateLifetime = true,
+                       ValidateIssuerSigningKey = true,
+                       ValidAudience = Configuration["JWTSettings:Audience"],
+                       ValidIssuer = Configuration["JWTSettings:Issuer"],
+                       IssuerSigningKey = new SymmetricSecurityKey
+                       (Encoding.UTF8.GetBytes(Configuration["JWTSettings:SecretKey"])),
+                       //ClockSkew = TimeSpan.Zero
+                   };
+               });
 
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Ldap.API", Version = "v1" });
@@ -49,7 +75,7 @@ namespace Ldap.API
                 c.AddSecurityRequirement(new OpenApiSecurityRequirement
                 {
                     {
-                         new OpenApiSecurityScheme
+                        new OpenApiSecurityScheme
                         {
                             Reference = new OpenApiReference
                             {
@@ -70,9 +96,10 @@ namespace Ldap.API
                 if (env.IsDevelopment())
                 {
                     app.UseDeveloperExceptionPage();
-                    app.UseSwagger();
-                    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Ldap.API v1"));
+                    
                 }
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Ldap.API v1"));
 
                 app.UseHttpsRedirection();
 

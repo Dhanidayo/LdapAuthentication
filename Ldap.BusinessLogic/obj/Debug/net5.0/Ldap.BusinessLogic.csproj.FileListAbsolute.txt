@@ -13,9 +13,6 @@ C:\Users\Sarah\Desktop\LdapApi\Ldap.BusinessLogic\obj\Debug\net5.0\Ldap.Business
 C:\Users\Sarah\Desktop\LdapApi\Ldap.BusinessLogic\bin\Debug\net5.0\Ldap.Models.dll
 C:\Users\Sarah\Desktop\LdapApi\Ldap.BusinessLogic\bin\Debug\net5.0\Ldap.Models.pdb
 C:\Users\Sarah\Desktop\LdapApi\Ldap.BusinessLogic\obj\Debug\net5.0\Ldap.BusinessLogic.csproj.CopyComplete
-C:\Users\lenovo\Desktop\LdapApi\Ldap.BusinessLogic\obj\Debug\net5.0\Ldap.BusinessLogic.dll
-C:\Users\lenovo\Desktop\LdapApi\Ldap.BusinessLogic\obj\Debug\net5.0\ref\Ldap.BusinessLogic.dll
-C:\Users\lenovo\Desktop\LdapApi\Ldap.BusinessLogic\obj\Debug\net5.0\Ldap.BusinessLogic.pdb
 C:\Users\lenovo\Desktop\LdapApi\Ldap.BusinessLogic\bin\Debug\net5.0\Ldap.BusinessLogic.deps.json
 C:\Users\lenovo\Desktop\LdapApi\Ldap.BusinessLogic\bin\Debug\net5.0\Ldap.BusinessLogic.dll
 C:\Users\lenovo\Desktop\LdapApi\Ldap.BusinessLogic\bin\Debug\net5.0\ref\Ldap.BusinessLogic.dll
@@ -27,3 +24,6 @@ C:\Users\lenovo\Desktop\LdapApi\Ldap.BusinessLogic\obj\Debug\net5.0\Ldap.Busines
 C:\Users\lenovo\Desktop\LdapApi\Ldap.BusinessLogic\obj\Debug\net5.0\Ldap.BusinessLogic.AssemblyInfoInputs.cache
 C:\Users\lenovo\Desktop\LdapApi\Ldap.BusinessLogic\obj\Debug\net5.0\Ldap.BusinessLogic.AssemblyInfo.cs
 C:\Users\lenovo\Desktop\LdapApi\Ldap.BusinessLogic\obj\Debug\net5.0\Ldap.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\LdapApi\Ldap.BusinessLogic\obj\Debug\net5.0\Ldap.BusinessLogic.dll
+C:\Users\lenovo\Desktop\LdapApi\Ldap.BusinessLogic\obj\Debug\net5.0\ref\Ldap.BusinessLogic.dll
+C:\Users\lenovo\Desktop\LdapApi\Ldap.BusinessLogic\obj\Debug\net5.0\Ldap.BusinessLogic.pdb
